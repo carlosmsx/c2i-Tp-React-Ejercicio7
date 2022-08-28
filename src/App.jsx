@@ -1,9 +1,10 @@
 import React from 'react';
+import EmpleadoList from './components/EmpleadoList';
 
 const App = () => {
     return (
         <div>
-            Hola
+            <EmpleadoList></EmpleadoList>
         </div>
     );
 };
